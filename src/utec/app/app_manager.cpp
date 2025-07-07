@@ -29,7 +29,7 @@ namespace {
     // dos opciones de lenguaje (no recomendado cambiar)
     // - training_words_esp.csv (database debil)
     // - training_words_eng.csv (preferible)
-    TextLoader loader("data/training_words_esp.csv");
+    TextLoader loader("../data/training_words_esp.csv");
 
 
     size_t input_size = 0;
